@@ -1,15 +1,13 @@
-ORCL=
-  (DESCRIPTION =
-    (SDU = 32768)
-    (ADDRESS_LIST =
-        (ADDRESS =
-          (COMMUNITY = SAP.WORLD)
-          (PROTOCOL = TCP)
-          (HOST = columbus)
-          (PORT = 1529)
-       )
-    (CONNECT_DATA =
-       (SID = A01)
-       (GLOBAL_NAME = A01.WORLD)
+SUIRPRE=
+  (DESCRIPTION=
+    (ADDRESS=
+      (PROTOCOL=TCP)
+      (HOST=SRVXDB04.tss2.gov.do)
+      (PORT=1524)
+    )
+    (CONNECT_DATA=
+      (SERVER=dedicated)
+      (SERVICE_NAME=suirpre.tss2.gov.do)
+      (UR=A)
     )
   )
